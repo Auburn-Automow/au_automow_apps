@@ -1,0 +1,9 @@
+<stack>
+  <description brief="au_automow_apps">au_automow_apps</description>
+  <author>Maintained by Michael Carroll</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/au_automow_apps</url>
+  <depend stack="ros" />
+
+</stack>

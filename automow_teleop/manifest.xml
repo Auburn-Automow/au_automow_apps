@@ -1,0 +1,17 @@
+<package>
+  <description brief="automow_teleop">
+
+     automow_teleop
+
+  </description>
+  <author>Michael Carroll</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/automow_teleop</url>
+  <depend package="joy"/>
+  <depend package="geometry_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+</package>
+
+
