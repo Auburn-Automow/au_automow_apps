@@ -1,0 +1,21 @@
+<launch>
+    <node pkg="touchosc_bridge" type="touchosc_bridge.py"
+        name="touchosc_bridge" output="screen">
+        <param name="osc_name" value="Automow Teleop"/>
+        <param name="port" value="10000" />
+        <param name="print_fallback" value="False"/>
+        <param name="load_default" value="False"/>
+        <rosparam param="handlers">[diagnostics,teleop]</rosparam>
+        <rosparam command="load" file="$(find automow_teleop)/cfg/osc_teleop.yaml" />
+    </node>
+
+    <param name="layout_path" value="$(find automow_teleop)/layouts"/>
+    <rosparam param="layouts">
+        [ "automow-ipad.touchosc", "automow-ipod.touchosc" ]
+    </rosparam>
+    
+    <node pkg="pytouchosc" type="layoutserver_node" name="layoutserver"/>
+
+    <node pkg="automow_teleop" type="joy2twist.py" name="joy2twist"
+        output="screen" />
+</launch>
