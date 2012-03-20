@@ -1,0 +1,5 @@
+apps:
+ - display: PS3 Joystick
+   app: automow_teleop/ps3_teleop
+ - display: OSC Joystick
+   app: automow_teleop/osc_teleop
