@@ -1,0 +1,3 @@
+NavfnROS:
+    visualize_potential: true
+    default_tolerance: 0.1

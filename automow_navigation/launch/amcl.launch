@@ -1,0 +1,8 @@
+<launch>
+    <arg name="map_file" default="$(find automow_navigation)/maps/broun-basement.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+    <include file="$(find automow_navigation)/config/amcl/amcl_automow.launch"/>
+
+    <include file="$(find automow_navigation)/config/move_base_automow.launch"/>
+</launch>

@@ -1,0 +1,14 @@
+<package>
+  <description brief="automow_navigation">
+
+     automow_navigation
+
+  </description>
+  <author>Michael Carroll</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/automow_navigation</url>
+
+</package>
+
+
