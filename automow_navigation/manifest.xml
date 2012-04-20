@@ -9,6 +9,10 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/automow_navigation</url>
 
+  <depend package="move_base_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="rospy"/>
+
 </package>
 
 
