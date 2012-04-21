@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find automow_maps)/launch/empty_map_server.launch"/>
+    <include file="$(find automow_navigation)/launch/robot_pose_ekf.launch"/>
+    <include file="$(find
+        automow_navigation)/launch/move_base_automow.launch"/>
+</launch>
