@@ -6,10 +6,10 @@ diagnostics:
 teleop:
   pkg: teleop_handler
   class: 'teleoptabpage/TeleopTabpageHandler'
-  max_vx: 0.8
-  max_vy: 0.8
-  max_vw: 0.4
-  max_run_vx: 1.2
-  max_run_vy: 1.2
-  max_run_vw: 1.0
+  max_vx: 0.5
+  max_vy: 0.5
+  max_vw: 0.2
+  max_run_vx: 1.5
+  max_run_vy: 0.8
+  max_run_vw: 0.4
   min_freq: 5

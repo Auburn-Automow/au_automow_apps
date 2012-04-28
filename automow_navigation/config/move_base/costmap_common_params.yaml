@@ -8,6 +8,6 @@ transform_tolerance: 0.2 # Max running just hardware nodes is ~0.0006 secs accor
 observation_sources: hokuyo_laser_scan_sensor
 
 hokuyo_laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan,
-                           marking: true, clearing: true,  expected_update_rate: 0.133}
+                           marking: true, clearing: true,  expected_update_rate: 0.2}
 
 # LRf @ 15Hz so 7.5Hz for update rate
