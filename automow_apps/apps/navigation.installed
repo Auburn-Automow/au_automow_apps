@@ -1,3 +1,5 @@
 apps:
  - display: Automow EKF
    app: automow_navigation/ekf
+ - display: Automow move_base
+   app: automow_navigation/move_base

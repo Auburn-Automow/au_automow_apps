@@ -12,15 +12,15 @@ def movebase_client():
     client.wait_for_server()
     rospy.loginfo('got server')
     goal = MoveBaseGoal()
-    goal.target_pose.header.frame_id = "base_link"
+    goal.target_pose.header.frame_id = "odom"
     goal.target_pose.header.stamp = rospy.Time.now()
-    goal.target_pose.pose.position.x = 10.0
-    goal.target_pose.pose.position.y = 0.0
+    goal.target_pose.pose.position.x = 0.0
+    goal.target_pose.pose.position.y = 10.0
     goal.target_pose.pose.position.z = 0.0
     goal.target_pose.pose.orientation.x = 0.0
     goal.target_pose.pose.orientation.y = 0.0
     goal.target_pose.pose.orientation.z = 0.0
-    goal.target_pose.pose.orientation.w = 1.0
+    goal.target_pose.pose.orientation.w = 0.5
     client.send_goal(goal)
     rospy.loginfo('sent goal')
     rospy.loginfo(goal)

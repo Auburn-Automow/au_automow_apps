@@ -9,6 +9,9 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/automow_apps</url>
 
+  <depend package="rosservice"/>
+  <depend package="app_manager"/>
+
 </package>
 
 
