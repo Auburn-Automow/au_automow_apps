@@ -11,11 +11,12 @@ TrajectoryPlannerROS:
 
     yaw_goal_tolerance: 0.1
     xy_goal_tolerance: 0.15
-    latch_xy_goal_tolerance: false
+    latch_xy_goal_tolerance: true
 
     sim_time: 2.0
     sim_granularity: 0.025
-    vx_samples: 3 # Default 3, 8-15 for high speed comupters
+    angular_sim_granularity: 0.025
+    vx_samples: 5 # Default 3, 8-15 for high speed comupters
     vtheta_samples: 20
     controller_frequency: 10
 
@@ -28,8 +29,6 @@ TrajectoryPlannerROS:
     heading_scoring_timestep: 0.2
     heading_lookahead: 0.325
 
-    dwa: false
-
+    dwa: true
     holonomic_robot: false
-
     publish_cost_grid_pc: true
