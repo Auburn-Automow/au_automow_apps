@@ -1,0 +1,3 @@
+apps:
+ - display: Automow EKF
+   app: automow_navigation/ekf
