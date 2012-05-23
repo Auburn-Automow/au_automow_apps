@@ -7,7 +7,7 @@
         <param name="cutters_used" value="false"/>
         <param name="decimate_ahrs_by_factor" value="10"/>
         <param name="output_frame" value="/odom"/>
-        <param name="adaptive_encoders" value="true"/>
+        <param name="adaptive_encoders" value="false"/>
         <param name="publish_states" value="true"/>
         <param name="output_states" value="false"/>
     </node>
