@@ -39,5 +39,5 @@ TrajectoryPlannerROS:
     angular_sim_granularity: 0.025
 
     yaw_goal_tolerance: 0.25
-    xy_goal_tolerance: 0.25
+    xy_goal_tolerance: 0.5
     latch_xy_goal_tolerance: true
