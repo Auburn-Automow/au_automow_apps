@@ -13,3 +13,4 @@ teleop:
   max_run_vy: 0.8
   max_run_vw: 0.4
   min_freq: 5
+  holonomic: false
