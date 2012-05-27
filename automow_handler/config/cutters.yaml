@@ -1,0 +1,3 @@
+cutters:
+  pkg: automow_handler
+  class: 'cuttertabpage/CutterTabpageHandler'
