@@ -14,3 +14,6 @@ teleop:
   max_run_vw: 0.4
   min_freq: 5
   holonomic: false
+cutters:
+  pkg: automow_handler
+  class: 'cuttertabpage/CutterTabpageHandler'

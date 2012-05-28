@@ -5,7 +5,7 @@
         <param name="port" value="10000" />
         <param name="print_fallback" value="False"/>
         <param name="load_default" value="False"/>
-        <rosparam param="handlers">[diagnostics,teleop]</rosparam>
+        <rosparam param="handlers">[diagnostics,teleop,cutters]</rosparam>
         <rosparam command="load" file="$(find automow_teleop)/cfg/osc_teleop.yaml" />
     </node>
 

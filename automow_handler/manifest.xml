@@ -1,0 +1,17 @@
+<package>
+  <description brief="automow_handler">
+
+     automow_handler
+
+  </description>
+  <author>Michael Carroll</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/automow_handler</url>
+
+  <depend package="touchosc_bridge"/>
+  <depend package="automow_node"/>
+
+</package>
+
+
