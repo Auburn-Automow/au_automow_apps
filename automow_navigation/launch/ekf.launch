@@ -5,7 +5,7 @@
         <param name="imu_used" value="true"/>
         <param name="gps_used" value="true"/>
         <param name="cutters_used" value="false"/>
-        <param name="decimate_ahrs_by_factor" value="10"/>
+        <param name="decimate_ahrs_by_factor" value="2"/>
         <param name="output_frame" value="/odom"/>
         <param name="adaptive_encoders" value="false"/>
         <param name="publish_states" value="true"/>
