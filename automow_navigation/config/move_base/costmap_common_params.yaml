@@ -7,7 +7,7 @@ transform_tolerance: 1.0 # Max running just hardware nodes is ~0.0006 secs accor
 observation_sources: hokuyo_laser_scan_sensor bumblebee_point_cloud
 
 hokuyo_laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan,
-                           marking: true, clearing: true,  expected_update_rate: 0.2}
+                           marking: true, clearing: false,  expected_update_rate: 0.2}
 
 bumblebee_point_cloud: {sensor_frame: bumblebee_optical, data_type: PointCloud2, topic: /ground_filter/obstacles,
                         marking: true, clearing: false, expected_update_rate: 0.3}
